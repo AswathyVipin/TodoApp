@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+
+}
+
+.Todo-container{
+    
+    width: 350px;
+    margin: auto;
+    margin-top:30px ;
+    text-align: center;
+}
+
+.input-section{
+    background-color: #056679;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.input-section input{
+    border-radius: 1px;
+    border: solid rgb(226,226,226);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #056679;
+}
+
+
+input::placeholder{
+    color: silver;
+}
+
+
+ul{
+
+ text-align: left;
+ padding: 0;
+}
+
+ul li{
+    list-style: none;
+    background-color: #056679;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    background-color: #ababab;
+}
